@@ -1,0 +1,93 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+ 
+}
+#navbar{
+    position: fixed;
+    height: 10vh;
+    background-color: rgb(12, 16, 16);
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+#logo{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+}
+#appname{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 220px;
+    margin-left: 10px;
+    color: white;
+    font-size: 30px;
+}
+
+@media only screen and (max-width:455px){
+    #appname{
+        font-size: 25px;
+    }
+}
+
+#home{
+    height: 30px;
+    width: 5rem;
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+#fakenav{
+    height: 10vh;
+    width: 100vw;
+    background-color:rgb(12, 16, 16);
+}
+.container{
+      height: 80vh;
+     width: 100vw;
+     background-image: url("background.avif");
+     background-size: cover;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+#mainbox{
+    height: 70vh;
+    width: 90vw;
+    background: fixed;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px blue;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: 14px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+.footer{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 100vw;
+    background-color:rgb(12, 16, 16);
+    color: white;
+    flex-direction: column;
+}
+
+#progressBar{
+    margin-bottom: 10px;
+    width: 90vw;
+}
